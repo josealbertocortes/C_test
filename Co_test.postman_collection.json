@@ -1,0 +1,721 @@
+{
+	"info": {
+		"_postman_id": "352e5982-11b5-4869-981d-498f8f1cbbd8",
+		"name": "Co_test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Microserviciouno",
+			"item": [
+				{
+					"name": "/searchComics",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/searchComics?skip=0&limit=10",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"searchComics"
+							],
+							"query": [
+								{
+									"key": "skip",
+									"value": "0"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "/searchComics",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://127.0.0.1:8000/searchComics?skip=0&limit=10",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"searchComics"
+									],
+									"query": [
+										{
+											"key": "skip",
+											"value": "0"
+										},
+										{
+											"key": "limit",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "date",
+									"value": "Sun, 14 Aug 2022 01:06:00 GMT"
+								},
+								{
+									"key": "server",
+									"value": "uvicorn"
+								},
+								{
+									"key": "content-length",
+									"value": "1200"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"personajes\": [\n        {\n            \"id\": 1011334,\n            \"name\": \"3-D Man\",\n            \"aparances\": 12,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1011334\"\n        },\n        {\n            \"id\": 1017100,\n            \"name\": \"A-Bomb (HAS)\",\n            \"aparances\": 4,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1017100\"\n        },\n        {\n            \"id\": 1009144,\n            \"name\": \"A.I.M.\",\n            \"aparances\": 52,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1009144\"\n        },\n        {\n            \"id\": 1010699,\n            \"name\": \"Aaron Stack\",\n            \"aparances\": 14,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1010699\"\n        },\n        {\n            \"id\": 1009146,\n            \"name\": \"Abomination (Emil Blonsky)\",\n            \"aparances\": 54,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1009146\"\n        },\n        {\n            \"id\": 1016823,\n            \"name\": \"Abomination (Ultimate)\",\n            \"aparances\": 2,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1016823\"\n        },\n        {\n            \"id\": 1009148,\n            \"name\": \"Absorbing Man\",\n            \"aparances\": 96,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1009148\"\n        },\n        {\n            \"id\": 1009149,\n            \"name\": \"Abyss\",\n            \"aparances\": 8,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1009149\"\n        },\n        {\n            \"id\": 1010903,\n            \"name\": \"Abyss (Age of Apocalypse)\",\n            \"aparances\": 3,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1010903\"\n        },\n        {\n            \"id\": 1011266,\n            \"name\": \"Adam Destine\",\n            \"aparances\": 0,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1011266\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "/searchComics/personajes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/searchComics/personajes?skip=0&limit=10",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"searchComics",
+								"personajes"
+							],
+							"query": [
+								{
+									"key": "skip",
+									"value": "0"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "/searchComics/personajes",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://127.0.0.1:8000/searchComics/personajes?skip=0&limit=10",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"searchComics",
+										"personajes"
+									],
+									"query": [
+										{
+											"key": "skip",
+											"value": "0"
+										},
+										{
+											"key": "limit",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "date",
+									"value": "Sun, 14 Aug 2022 01:06:00 GMT"
+								},
+								{
+									"key": "server",
+									"value": "uvicorn"
+								},
+								{
+									"key": "content-length",
+									"value": "1200"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"personajes\": [\n        {\n            \"id\": 1011334,\n            \"name\": \"3-D Man\",\n            \"aparances\": 12,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1011334\"\n        },\n        {\n            \"id\": 1017100,\n            \"name\": \"A-Bomb (HAS)\",\n            \"aparances\": 4,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1017100\"\n        },\n        {\n            \"id\": 1009144,\n            \"name\": \"A.I.M.\",\n            \"aparances\": 52,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1009144\"\n        },\n        {\n            \"id\": 1010699,\n            \"name\": \"Aaron Stack\",\n            \"aparances\": 14,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1010699\"\n        },\n        {\n            \"id\": 1009146,\n            \"name\": \"Abomination (Emil Blonsky)\",\n            \"aparances\": 54,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1009146\"\n        },\n        {\n            \"id\": 1016823,\n            \"name\": \"Abomination (Ultimate)\",\n            \"aparances\": 2,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1016823\"\n        },\n        {\n            \"id\": 1009148,\n            \"name\": \"Absorbing Man\",\n            \"aparances\": 96,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1009148\"\n        },\n        {\n            \"id\": 1009149,\n            \"name\": \"Abyss\",\n            \"aparances\": 8,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1009149\"\n        },\n        {\n            \"id\": 1010903,\n            \"name\": \"Abyss (Age of Apocalypse)\",\n            \"aparances\": 3,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1010903\"\n        },\n        {\n            \"id\": 1011266,\n            \"name\": \"Adam Destine\",\n            \"aparances\": 0,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1011266\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "/searchComics/personajes?name=iron",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/searchComics/personajes?name=iron&skip=0&limit=10",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"searchComics",
+								"personajes"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "iron"
+								},
+								{
+									"key": "skip",
+									"value": "0"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "/searchComics/personajes?name=iron",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://127.0.0.1:8000/searchComics/personajes?name=iron&skip=0&limit=10",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"searchComics",
+										"personajes"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "iron"
+										},
+										{
+											"key": "skip",
+											"value": "0"
+										},
+										{
+											"key": "limit",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "date",
+									"value": "Sun, 14 Aug 2022 01:06:00 GMT"
+								},
+								{
+									"key": "server",
+									"value": "uvicorn"
+								},
+								{
+									"key": "content-length",
+									"value": "2524"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"personajes\": [\n        {\n            \"id\": 1011379,\n            \"name\": \"Iron Cross Army\",\n            \"aparances\": 0,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1011379\"\n        },\n        {\n            \"id\": 1011318,\n            \"name\": \"Iron Fist (Bei Bang-Wen)\",\n            \"aparances\": 6,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1011318\"\n        },\n        {\n            \"id\": 1009367,\n            \"name\": \"Iron Fist (Danny Rand)\",\n            \"aparances\": 396,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1009367\"\n        },\n        {\n            \"id\": 1010888,\n            \"name\": \"Iron Fist (Orson Randall)\",\n            \"aparances\": 14,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1010888\"\n        },\n        {\n            \"id\": 1011413,\n            \"name\": \"Iron Fist (Quan Yaozu)\",\n            \"aparances\": 1,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1011413\"\n        },\n        {\n            \"id\": 1016839,\n            \"name\": \"Iron Fist (USM)\",\n            \"aparances\": 0,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1016839\"\n        },\n        {\n            \"id\": 1011412,\n            \"name\": \"Iron Fist (Wu Ao-Shi)\",\n            \"aparances\": 2,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1011412\"\n        },\n        {\n            \"id\": 1010704,\n            \"name\": \"Iron Lad\",\n            \"aparances\": 17,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1010704\"\n        },\n        {\n            \"id\": 1009368,\n            \"name\": \"Iron Man\",\n            \"aparances\": 2616,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1009368\"\n        },\n        {\n            \"id\": 1017320,\n            \"name\": \"Iron Man (Iron Man 3 - The Official Game)\",\n            \"aparances\": 0,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1017320\"\n        },\n        {\n            \"id\": 1017294,\n            \"name\": \"Iron Man (LEGO Marvel Super Heroes)\",\n            \"aparances\": 0,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1017294\"\n        },\n        {\n            \"id\": 1017310,\n            \"name\": \"Iron Man (Marvel Heroes)\",\n            \"aparances\": 0,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1017310\"\n        },\n        {\n            \"id\": 1017326,\n            \"name\": \"Iron Man (Marvel War of Heroes)\",\n            \"aparances\": 0,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1017326\"\n        },\n        {\n            \"id\": 1010935,\n            \"name\": \"Iron Man (Ultimate)\",\n            \"aparances\": 76,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1010935\"\n        },\n        {\n            \"id\": 1017104,\n            \"name\": \"Iron Man/Tony Stark (MAA)\",\n            \"aparances\": 0,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1017104\"\n        },\n        {\n            \"id\": 1009371,\n            \"name\": \"Iron Monger\",\n            \"aparances\": 0,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1009371\"\n        },\n        {\n            \"id\": 1009487,\n            \"name\": \"Iron Patriot\",\n            \"aparances\": 6,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1009487\"\n        },\n        {\n            \"id\": 1009538,\n            \"name\": \"Iron Patriot (James Rhodes)\",\n            \"aparances\": 76,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1009538\"\n        },\n        {\n            \"id\": 1010844,\n            \"name\": \"Ironclad\",\n            \"aparances\": 0,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1010844\"\n        },\n        {\n            \"id\": 1017831,\n            \"name\": \"Ironheart (Riri Williams)\",\n            \"aparances\": 83,\n            \"image\": \"http://gateway.marvel.com/v1/public/characters/1017831\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "/searchComics/comics",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/searchComics/comic?skip=0&limit=10",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"searchComics",
+								"comic"
+							],
+							"query": [
+								{
+									"key": "skip",
+									"value": "0"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "/searchComics/comics",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://127.0.0.1:8000/searchComics/comic?skip=0&limit=10",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"searchComics",
+										"comic"
+									],
+									"query": [
+										{
+											"key": "skip",
+											"value": "0"
+										},
+										{
+											"key": "limit",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "date",
+									"value": "Sun, 14 Aug 2022 01:06:15 GMT"
+								},
+								{
+									"key": "server",
+									"value": "uvicorn"
+								},
+								{
+									"key": "content-length",
+									"value": "1525"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"comics\": [\n        {\n            \"id\": 323,\n            \"title\": \"Ant-Man (2003) #2\",\n            \"date\": \"2029-12-31T00:00:00-0500\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/323\"\n        },\n        {\n            \"id\": 291,\n            \"title\": \"Ant-Man (2003) #1\",\n            \"date\": \"2029-12-31T00:00:00-0500\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/291\"\n        },\n        {\n            \"id\": 1590,\n            \"title\": \"Official Handbook of the Marvel Universe (2004) #9 (THE WOMEN OF MARVEL)\",\n            \"date\": \"2029-12-31T00:00:00-0500\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/1590\"\n        },\n        {\n            \"id\": 1689,\n            \"title\": \"Official Handbook of the Marvel Universe (2004) #10 (MARVEL KNIGHTS)\",\n            \"date\": \"2029-12-31T00:00:00-0500\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/1689\"\n        },\n        {\n            \"id\": 331,\n            \"title\": \"Gun Theory (2003) #4\",\n            \"date\": \"2029-12-31T00:00:00-0500\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/331\"\n        },\n        {\n            \"id\": 1749,\n            \"title\": \"Official Handbook of the Marvel Universe (2004) #11 (X-MEN - AGE OF APOCALYPSE)\",\n            \"date\": \"2029-12-31T00:00:00-0500\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/1749\"\n        },\n        {\n            \"id\": 376,\n            \"title\": \"Ant-Man (2003) #3\",\n            \"date\": \"2029-12-31T00:00:00-0500\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/376\"\n        },\n        {\n            \"id\": 183,\n            \"title\": \"Startling Stories: The Incorrigible Hulk (2004) #1\",\n            \"date\": \"2029-12-31T00:00:00-0500\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/183\"\n        },\n        {\n            \"id\": 428,\n            \"title\": \"Ant-Man (2003) #4\",\n            \"date\": \"2029-12-31T00:00:00-0500\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/428\"\n        },\n        {\n            \"id\": 384,\n            \"title\": \"Gun Theory (2003) #3\",\n            \"date\": \"2029-12-31T00:00:00-0500\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/384\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "/searchComics/comics?name=x",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/searchComics/comic?name=x&skip=0&limit=10",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"searchComics",
+								"comic"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "x"
+								},
+								{
+									"key": "skip",
+									"value": "0"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "/searchComics/comics?name=x",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://127.0.0.1:8000/searchComics/comic?name=x&skip=0&limit=10",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"searchComics",
+										"comic"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "x"
+										},
+										{
+											"key": "skip",
+											"value": "0"
+										},
+										{
+											"key": "limit",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "date",
+									"value": "Sun, 14 Aug 2022 01:06:15 GMT"
+								},
+								{
+									"key": "server",
+									"value": "uvicorn"
+								},
+								{
+									"key": "content-length",
+									"value": "2861"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"comics\": [\n        {\n            \"id\": 38041,\n            \"title\": \"X-Men (2010)\",\n            \"date\": \"2029-12-31T00:00:00-0500\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/38041\"\n        },\n        {\n            \"id\": 17486,\n            \"title\": \"X-Men: Phoenix - Warsong (2006)\",\n            \"date\": \"2029-12-31T00:00:00-0500\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/17486\"\n        },\n        {\n            \"id\": 38002,\n            \"title\": \"X-Men: Fall Of The Mutants (2010)\",\n            \"date\": \"2029-12-31T00:00:00-0500\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/38002\"\n        },\n        {\n            \"id\": 99761,\n            \"title\": \"X-Men Legends (2022) #4\",\n            \"date\": \"2022-11-09T00:00:00-0500\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/99761\"\n        },\n        {\n            \"id\": 99760,\n            \"title\": \"X-Men Legends (2022) #3\",\n            \"date\": \"2022-10-26T00:00:00-0400\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/99760\"\n        },\n        {\n            \"id\": 103885,\n            \"title\": \"X-Terminators (2022) #2 (Variant)\",\n            \"date\": \"2022-10-26T00:00:00-0400\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/103885\"\n        },\n        {\n            \"id\": 100425,\n            \"title\": \"X-Terminators (2022) #2\",\n            \"date\": \"2022-10-26T00:00:00-0400\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/100425\"\n        },\n        {\n            \"id\": 103349,\n            \"title\": \"X-Men Legends (2022) #3 (Variant)\",\n            \"date\": \"2022-10-26T00:00:00-0400\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/103349\"\n        },\n        {\n            \"id\": 95894,\n            \"title\": \"X-Force (2019) #33\",\n            \"date\": \"2022-10-19T00:00:00-0400\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/95894\"\n        },\n        {\n            \"id\": 105726,\n            \"title\": \"X-Force (2019) #33\",\n            \"date\": \"2022-10-19T00:00:00-0400\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/105726\"\n        },\n        {\n            \"id\": 102226,\n            \"title\": \"X-Men (2021) #16\",\n            \"date\": \"2022-10-19T00:00:00-0400\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/102226\"\n        },\n        {\n            \"id\": 95893,\n            \"title\": \"X-Force (2019) #32\",\n            \"date\": \"2022-10-12T00:00:00-0400\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/95893\"\n        },\n        {\n            \"id\": 103602,\n            \"title\": \"X-Force (2019) #32 (Variant)\",\n            \"date\": \"2022-10-12T00:00:00-0400\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/103602\"\n        },\n        {\n            \"id\": 102553,\n            \"title\": \"X-Men Red (2022) #7\",\n            \"date\": \"2022-10-05T00:00:00-0400\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/102553\"\n        },\n        {\n            \"id\": 103603,\n            \"title\": \"X-Men (2021) #15 (Variant)\",\n            \"date\": \"2022-09-28T00:00:00-0400\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/103603\"\n        },\n        {\n            \"id\": 95899,\n            \"title\": \"X-Men (2021) #15\",\n            \"date\": \"2022-09-28T00:00:00-0400\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/95899\"\n        },\n        {\n            \"id\": 102591,\n            \"title\": \"X-Terminators (2022) #1 (Variant)\",\n            \"date\": \"2022-09-21T00:00:00-0400\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/102591\"\n        },\n        {\n            \"id\": 99759,\n            \"title\": \"X-Men Legends (2022) #2\",\n            \"date\": \"2022-09-21T00:00:00-0400\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/99759\"\n        },\n        {\n            \"id\": 100424,\n            \"title\": \"X-Terminators (2022) #1\",\n            \"date\": \"2022-09-21T00:00:00-0400\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/100424\"\n        },\n        {\n            \"id\": 102435,\n            \"title\": \"X-Men Unlimited: X-Men Green (2022) #2\",\n            \"date\": \"2022-09-21T00:00:00-0400\",\n            \"image\": \"http://gateway.marvel.com/v1/public/comics/102435\"\n        }\n    ]\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Microserviciodos",
+			"item": [
+				{
+					"name": "/users/ AddUser",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"alberto\",\n  \"email\": \"albertt@example.com\",\n  \"password\": \"abc123asd\",\n  \"age\": 25\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:7000/users/",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "7000",
+							"path": [
+								"users",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "/users/ AddUser",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"name\": \"alberto\",\n  \"email\": \"alberet@example.com\",\n  \"password\": \"abc123asd\",\n  \"age\": 25\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:7000/users/",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "7000",
+									"path": [
+										"users",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "date",
+									"value": "Sun, 14 Aug 2022 01:05:53 GMT"
+								},
+								{
+									"key": "server",
+									"value": "uvicorn"
+								},
+								{
+									"key": "content-length",
+									"value": "287"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"id\": \"62f84a72e62b3576298759f8\",\n            \"name\": \"alberto\",\n            \"email\": \"alberet@example.com\",\n            \"age\": 25,\n            \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiYWxiZXJ0byIsImV4cCI6MTY2MDQzOTE1NH0.HTtUvH_xihWzOhrYdXc2HzHJhsWvfzDpXaib17TwEgE\"\n        }\n    ],\n    \"code\": 200,\n    \"message\": \"user added successfully.\"\n}"
+						}
+					]
+				},
+				{
+					"name": "/users/:id GetUser",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:7000/users/62f84988e62b3576298759f7",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "7000",
+							"path": [
+								"users",
+								"62f84988e62b3576298759f7"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "/users/:id GetUser",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://127.0.0.1:7000/users/62f84988e62b3576298759f7",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "7000",
+									"path": [
+										"users",
+										"62f84988e62b3576298759f7"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "date",
+									"value": "Sun, 14 Aug 2022 01:05:41 GMT"
+								},
+								{
+									"key": "server",
+									"value": "uvicorn"
+								},
+								{
+									"key": "content-length",
+									"value": "295"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"id\": \"62f84988e62b3576298759f7\",\n            \"name\": \"alberto\",\n            \"email\": \"albertt@example.com\",\n            \"age\": 25,\n            \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiYWxiZXJ0byIsImV4cCI6MTY2MDQzOTEzNX0.faZ_xkeic53-dYBPas3jm5qleza2zYiSegPB_IGw1kU\"\n        }\n    ],\n    \"code\": 200,\n    \"message\": \"user data retrieved successfully\"\n}"
+						}
+					]
+				},
+				{
+					"name": "/users/:id UpdateToken",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"albert@example.com\",\n  \"password\": \"abc123asd\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:7000/users/62f84988e62b3576298759f7",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "7000",
+							"path": [
+								"users",
+								"62f84988e62b3576298759f7"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "/users/:id UpdateToken",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"email\": \"albert@example.com\",\n  \"password\": \"abc123asd\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://127.0.0.1:7000/users/62f84988e62b3576298759f7",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "7000",
+									"path": [
+										"users",
+										"62f84988e62b3576298759f7"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "date",
+									"value": "Sun, 14 Aug 2022 01:05:34 GMT"
+								},
+								{
+									"key": "server",
+									"value": "uvicorn"
+								},
+								{
+									"key": "content-length",
+									"value": "185"
+								},
+								{
+									"key": "content-type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoiYWxiZXJ0byIsImV4cCI6MTY2MDQzOTEzNX0.faZ_xkeic53-dYBPas3jm5qleza2zYiSegPB_IGw1kU\"\n        }\n    ],\n    \"code\": 200,\n    \"message\": \"new token \"\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

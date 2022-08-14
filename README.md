@@ -31,6 +31,13 @@ En la siguiente url se encuentra la documentación generada por fastapi
 http://127.0.0.1:8000/docs
 
 ## Microservicio dos 
+
+## Prerequisitos 
+En mongodb atlas es necesario crear una base datos y una colección con los siguientes nombre
+
+DATABASE = user
+COLLECTION = user_colection
+
 Es necesario estar en la raiz del repositorio 
 ##### Ir a la carpeta de fastApiMongo
 `cd fastApiMongo`
