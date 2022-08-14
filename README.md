@@ -36,6 +36,7 @@ http://127.0.0.1:8000/docs
 En mongodb atlas es necesario crear una base datos y una colección con los siguientes nombre
 
 DATABASE = user
+
 COLLECTION = user_colection
 
 Es necesario estar en la raiz del repositorio 
